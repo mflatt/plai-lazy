@@ -2,7 +2,6 @@
 (require (rename-in racket/base [begin r:begin])
          (for-syntax scheme/list
                      syntax/parse
-                     unstable/syntax
                      (only-in scheme/function curry)
                      racket/base))
 
