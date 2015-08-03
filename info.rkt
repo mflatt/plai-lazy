@@ -6,10 +6,9 @@
 (define deps '("base"
                "gui-lib"
                "lazy"
-               "plai-lib"
+               "plai"
                "sandbox-lib"
                "scheme-lib"
                "srfi-lite-lib"))
-(define build-deps '("plai-doc"
-                     "racket-doc"
+(define build-deps '("racket-doc"
                      "scribble-lib"))
